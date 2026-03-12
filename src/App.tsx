@@ -11,11 +11,11 @@ export default function App() {
 
   const renderTab = () => {
     switch (currentTab) {
-      case 'diagnostico': return <diagnostico />;
-      case 'word': return <wordIntro />;
-      case 'excel': return <excelIntro />;
-      case 'ia': return <iaIntro />;
-      case 'prog': return <programacionIntro />;
+      case 'diagnostico': return <Diagnostico />;
+      case 'word': return <WordIntro />;
+      case 'excel': return <ExcelIntro />;
+      case 'ia': return <IAIntro />;
+      case 'prog': return <ProgramacionIntro />;
       default: return <Diagnostico />;
     }
   };
